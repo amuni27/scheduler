@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Hit URL
         run: |
-          curl -X https://go-zembil-frontend.onrender.com/
+          curl -L -X GET "https://go-zembil-frontend.onrender.com/"
